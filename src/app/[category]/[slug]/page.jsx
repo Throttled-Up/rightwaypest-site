@@ -160,7 +160,7 @@ export default async function HubPage({ params }) {
           <article className="mdx-content" style={{ fontSize: '1.0625rem', lineHeight: 1.75, color: 'var(--color-text-body)' }}>
             {mdxContent}
           </article>
-          <aside style={{ position: 'sticky', top: 90 }}>
+          <aside>
             <HubServiceSidebar config={config} hub={hub} />
           </aside>
         </div>
