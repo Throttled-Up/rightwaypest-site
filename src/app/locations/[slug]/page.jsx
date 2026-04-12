@@ -142,7 +142,7 @@ export default async function LocationPage({ params }) {
           </article>
 
           {/* Sidebar: services in this city */}
-          <aside style={{ position: 'sticky', top: 90 }}>
+          <aside>
             <LocationSidebar config={config} fm={fm} cityServices={cityServices} />
           </aside>
         </div>
